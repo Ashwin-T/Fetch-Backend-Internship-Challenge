@@ -2,6 +2,8 @@
 
 This document provides documentation for the Points Management API, a Node.js/Express application that handles point transactions and balance management for multiple payers.
 
+This API is written in JavaScript and uses the Express framework for routing and handling HTTP requests.
+
 ## Table of Contents
 - [Setup](#setup)
 - [API Endpoints](#api-endpoints)
@@ -10,16 +12,28 @@ This document provides documentation for the Points Management API, a Node.js/Ex
 - [Error Handling](#error-handling)
 
 ## Setup
+### Installing Required Tools
 
-### Prerequisites
-- Node.js (v12 or higher)
-- npm or yarn package manager
+1. **Install Node.js**
+   - Go to [https://nodejs.org](https://nodejs.org)
+   - Download and install the "LTS" (Long Term Support) version
+   - To verify installation, open your terminal/command prompt and type:
+     ```bash
+     node --version
+     ```
+   - You should see a version number like `v18.x.x`
+
+2. **Verify npm installation** (npm comes with Node.js)
+   ```bash
+   npm --version
+   ```
+   You should see a version number like `9.x.x`
 
 ### Installation
 1. Clone the repository
 2. Install dependencies:
 ```bash
-npm install express
+npm install
 ```
 3. Start the server:
 ```bash
