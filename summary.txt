@@ -1,0 +1,32 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose Node.js with Express.js for this implementation for several reasons:
+- Express.js provides a lightweight and minimalist web framework that's perfect for building RESTful APIs
+- JavaScript's built-in Date object makes timestamp handling straightforward
+- The async nature of Node.js makes it efficient for handling HTTP requests
+- Express middleware makes it easy to parse JSON requests and handle errors
+- The large ecosystem of NPM packages provides flexibility for future expansions
+- I am most comfortable with JavaScript and Node.js (while creating REST APIs), which allows me to work quickly and efficiently
+
+2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+- Clean and maintainable code structure with clear separation of concerns
+- Error handling for edge cases
+- Easy to test and debug with straightforward API endpoints
+- Lightweight implementation with minimal dependencies
+- Follows REST principles with appropriate HTTP methods and status codes
+
+Disadvantages:
+- In-memory storage means data is lost when the server restarts
+- No database persistence for long-term data storage
+- No authentication or user management implementation
+- No request rate limiting or other production-ready features
+- Data is stored by name, which could lead to collisions if two users have the same name
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+One of my most rewarding projects has been Hiro, an iOS app I developed for smart home device management. What makes this project special is that I actually use it daily to control various smart devices in my own apartment, from smart frames to temperature sensors and lighting systems.
+The most challenging aspect was architecting and integrating all the different components into a cohesive system. Building the full-stack application required careful coordination between the React Native frontend, Express backend, AWS IoT Core for device communication, and Firebase for data management. Getting these pieces to work together seamlessly while maintaining real-time device control and state management was complex.
+Another significant challenge was navigating the iOS app publishing process. Learning to work with Apple's development ecosystem, handling certificates, provisioning profiles, and meeting App Store requirements pushed me to develop new skills beyond just coding. It was particularly satisfying to overcome these hurdles and see the app successfully published and functioning in a real-world environment.
+What makes this project especially meaningful is that it's not just a theoretical exercise – I rely on it every day to manage my own smart home devices.
