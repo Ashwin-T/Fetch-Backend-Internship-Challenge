@@ -1,4 +1,4 @@
-# Points API Documentation
+# API Documentation
 
 This document provides documentation for the Points Management API, a Node.js/Express application that handles point transactions and balance management for multiple payers.
 
