@@ -30,7 +30,7 @@ This API is written in JavaScript and uses the Express framework for routing and
    You should see a version number like `9.x.x`
 
 ### Installation
-1. Clone the repository
+1. Clone the repository 
 2. Install dependencies:
 ```bash
 npm install
